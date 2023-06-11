@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>exercise-1</title>
+  </head>
+  <body>
+    <h1>Market Research survey</h1>
+    <p>Please take few moments to complete this satisfaction survey</p>
+    <br />
+    <label for="age">What is your age range?</label><br />
+    <input type="number" id="age" /><br /><br />
+    <label for="money">What is your yearly income range?</label><br />
+    <input type="number" id="money" />
+    <form action="/abc.php">
+      Gender <br />
+      <input type="radio" name="gender" value="male" />Male <br />
+      <input type="radio" name="gender" value="female" />Female
+    </form>
+    <br /><br />
+    <form action="/abc.php">
+      Which of the following products have your purchased in the last two month,
+      please check all that apply <br />
+      <input type="checkbox" name="option" value="male" />Product 1 <br />
+      <input type="checkbox" name="option" value="female" />Product 2
+    </form>
+    <br /><br />
+    <form action="/abc.php">
+      How often if you use our new product? <br />
+      <input type="radio" name="howlong" value="daily" />Daily <br />
+      <input type="radio" name="howlong" value="weekly" />Weekly <br />
+      <input type="radio" name="howlong" value="monthly" />Monthly
+    </form>
+    <br />
+    <label for="xx">What would you pay for the new product?</label><br />
+    <input type="number" id="xx" /><br /><br /><br /><br /><br /><br />
+    <label for="aa"
+      >What feature would you like to see in the new product?</label
+    ><br />
+    <textarea name="" id="aa" cols="50" rows="5"></textarea><br />
+    <p>Please rate your level of agreement wiht the following statemet.</p>
+    <table>
+      <tr>
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Dissagree</th>
+        <th>Agree</th>
+        <th>Strongly Agree</th>
+      </tr>
+      <tr>
+        <th>Our profuct are priced fairy</th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+      </tr>
+      <tr>
+        <th>Our profuct are hight quality</th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+      </tr>
+      <tr>
+        <th>You would recommend our product to a friend or coworker</th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+        <th><input type="radio" /></th>
+      </tr>
+    </table>
+    <input type="submit" value="Submit" />
+  </body>
+</html>
